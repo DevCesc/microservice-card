@@ -13,7 +13,7 @@ public class CardServiceImpl implements CardService {
 
 	
 	@Autowired
-	CardRepository cardRepository;
+	private CardRepository cardRepository;
 	
 	@Override
 	public Mono<Card> saveCard(Card card) {
