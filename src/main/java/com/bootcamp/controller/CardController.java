@@ -28,6 +28,11 @@ public class CardController {
 	
     }
 	
+	@PostMapping(value ="/payByCardDebit")
+	public Mono<ResponseEntity<Card>> paybyCardDebit(){
+		return null;
+	}
+	
 
 	
 }
